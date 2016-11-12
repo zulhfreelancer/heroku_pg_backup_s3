@@ -5,12 +5,12 @@ default: &default
 
 development:
   <<: *default
-  database: db/heroku_pg_backup_s3_development
+  database: heroku_pg_backup_s3_development
 
 test:
   <<: *default
-  database: db/heroku_pg_backup_s3_test
+  database: heroku_pg_backup_s3_test
 
 production:
   <<: *default
-  database: db/heroku_pg_backup_s3_production
+  database: heroku_pg_backup_s3_production
